@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  node_app:
+  portal_app:
     build:
       context: .
       dockerfile: Dockerfile

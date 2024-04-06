@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 6060
 
-CMD [ "serve", "-s", "dist","--listen","6060" ]
+CMD [ "npm", "run", "dev" ]
+# CMD [ "serve", "-s", "dist","--listen","6060" ]
